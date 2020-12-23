@@ -16,7 +16,7 @@ const Generator: React.FC = () => {
         if (recipient === '') {
             setLink('');
         } else {
-            setLink(`localhost:3000/name/${recipient}`);
+            setLink(`https://christmascard.kacp3r.xyz/name/${recipient}`);
         }
         setErr('');
     }
@@ -28,13 +28,14 @@ const Generator: React.FC = () => {
     return (
         <div className="gen">
         <h1>Virtual Christmas Letter Generator</h1>
+        <h3>Input the name of the person you want to send a christmas card, and a link will be generated that links to the card. Simply copy the link, and share it with the person of interest. That's all!</h3>
         <input
             id="name"
             type="text"
             placeholder="Enter Recipient's Name"
             onChange={(e) => handleChange(e.target.value)}
         ></input>
-        <h2>{ link }</h2>
+        <h4>{ link }</h4>
         <div className="buttonWrapper">
             <button
                 className="clipboard"
