@@ -1,7 +1,5 @@
 # React/Typescript Virtual Christmas Card
 
-This project is essentially a christmas card generator where you put someones name in and it generates a nice little card for you to send.
+This project is a christmas card generator where you input a name, which in return provides a link to a nice and animated christmas card to send someone
 
 Made with React, Typescript, and React-Router-DOM
-
-(I'll add on to this later)
