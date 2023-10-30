@@ -16,7 +16,7 @@ const Generator: React.FC = () => {
         if (recipient === '') {
             setLink('');
         } else {
-            setLink(`https://https://christmascardgenerator.netlify.app/name/${recipient}`);
+            setLink(`https://christmascardgenerator.netlify.app/name/${recipient}`);
         }
         setErr('');
     }
